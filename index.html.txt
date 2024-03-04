@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+ <h>
+  <title>My Personal Introduction </title>
+  <style> CSS rules 
+    body {background-color: 396CDB;} 
+    h1 {color: 664C65;}
+    p {color: BA8952;}
+ </h>
+   <body>
+    <h1> My name is [Rizwana Nasir] </h1>
+     <p> I am a programming student. I enjoy coding and solving problems. In my free time, I like to read books and spend time with kids.
+     </p>
+    </body>
+ </html>
