@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyScript Demo</title>
+</head>
+<body>
+    <h1>PyScript Demo</h1>
+
+    <!-- Input box -->
+    <input type="number" id="operandOne" placeholder="Enter a number">
+
+    <!-- Button to trigger calculation -->
+    <button onclick="calculate()">Calculate</button>
+
+    <!-- Result display -->
+    <div id="total"></div>
+
+    <!-- PyScript -->
+    <script type="text/py-script">
+        function calculate() {
+            // Getting a value from an input
+            var input_box = Element("operandOne");
+            var operandOne = parseFloat(input_box.value);
+
+            // Writing a value to a div
+            var result = Element("total");
+            result.write("Hello! The input says: " + operandOne);
+        }
+    </script>
+</body>
+</html>
